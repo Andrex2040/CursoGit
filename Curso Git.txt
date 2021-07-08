@@ -12,3 +12,4 @@
 * Ver a que repositorio remoto esta apuntando -------->>>>>  git remote -v
   Ejemplo (fetch) es como un pull pero sin hacer merge		 origin  https://github.com/Andrex2040/CursoGit.git (fetch)
 		  (push)publicar los commit al remoto				 origin  https://github.com/Andrex2040/CursoGit.git (push)
+* Subir cambios al remoto									 git push -u origin main (main) es el nombre de la rama a subir
