@@ -5,3 +5,7 @@
 * Agregar cambios todos los cambios ------------------>>>>>  git add .
 * Forzar a subir todos los cambios ------------------->>>>>  git add --all
 * Confirmar cambios ---------------------------------->>>>>  git commit -m "Aqui va el mensaje del cambio" 
+
+* Subir repositorio local a remoto ------------------->>>>>  git remote add origin https://github.com/Andrex2040/CursoGit.git
+															 git branch -M main
+															 git push -u origin main
