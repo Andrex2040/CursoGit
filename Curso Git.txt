@@ -21,4 +21,8 @@
 * Una rama se crea a partir de una rama existente ---->>>>>  git branch nombreRama
   en gitKraken click derecho sobre la 
   rama y "create branch here",  ejemplo develop
+  
+====================================================== ERGE ENTRE RAMAS ======================================================
+git merge origin/master									--> mezclar mi rama actual con la master del repositorio remoto
+git merge origin/master --allow-unrelated-histories		--> si el comando amnterior retorna error (fatal: refusing to merge unrelated histories)
 
