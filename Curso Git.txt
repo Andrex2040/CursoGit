@@ -1,4 +1,4 @@
-========================================================== CURSO GIT ==================================================
+=============================================================== CURSO GIT =====================================================
 
 * Inicializar proyecto git --------------------------->>>>>  git init
 * Revisar cambios realizados ------------------------->>>>>  git status
@@ -6,6 +6,7 @@
 * Forzar a subir todos los cambios ------------------->>>>>  git add --all
 * Confirmar cambios ---------------------------------->>>>>  git commit -m "Aqui va el mensaje del cambio" 
 
+======================================================== GIT REMOTO ===========================================================
 * Subir repositorio local a remoto ------------------->>>>>  git remote add origin https://github.com/Andrex2040/CursoGit.git
 															 git branch -M main
 															 git push -u origin main
@@ -13,3 +14,20 @@
   Ejemplo (fetch) es como un pull pero sin hacer merge		 origin  https://github.com/Andrex2040/CursoGit.git (fetch)
 		  (push)publicar los commit al remoto				 origin  https://github.com/Andrex2040/CursoGit.git (push)
 * Subir cambios al remoto									 git push -u origin main (main) es el nombre de la rama a subir
+* Envio cambios al repositorio remoto en la rama master >>>  git push origin master (master es el nombre de la rama a subir cambios)									 
+
+======================================================= CREAR RAMAS===========================================================
+
+* Una rama se crea a partir de una rama existente ---->>>>>  git branch nombreRama
+  en gitKraken click derecho sobre la 
+  rama y "create branch here",  ejemplo develop
+  
+====================================================== ERGE ENTRE RAMAS ======================================================
+
+* Para combinar dos ramas ---------------------------->>>>> git merge ramaAConmbinar
+  Nos paramos en la rama con git checkout y mezclamos con otra rama
+  En gitKraken click derecho en la rama a combinar
+  (Ejemplo: Merge develop into master)
+* mezclar mi rama actual con la master del repositorio remoto---->>>>> git merge origin/master		
+* si el comando amnterior retorna error (fatal: refusing to merge unrelated histories) ------>>>> git merge origin/master --allow-unrelated-histories	
+
