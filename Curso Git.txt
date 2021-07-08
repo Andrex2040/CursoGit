@@ -23,6 +23,11 @@
   rama y "create branch here",  ejemplo develop
   
 ====================================================== ERGE ENTRE RAMAS ======================================================
-git merge origin/master									--> mezclar mi rama actual con la master del repositorio remoto
-git merge origin/master --allow-unrelated-histories		--> si el comando amnterior retorna error (fatal: refusing to merge unrelated histories)
+
+* Para combinar dos ramas ---------------------------->>>>> git merge ramaAConmbinar
+  Nos paramos en la rama con git checkout y mezclamos con otra rama
+  En gitKraken click derecho en la rama a combinar
+  (Ejemplo: Merge develop into master)
+* mezclar mi rama actual con la master del repositorio remoto---->>>>> git merge origin/master		
+* si el comando amnterior retorna error (fatal: refusing to merge unrelated histories) ------>>>> git merge origin/master --allow-unrelated-histories	
 
