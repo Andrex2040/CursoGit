@@ -3,7 +3,7 @@
 * Inicializar proyecto git ----------------------------------------------------------------------->>>>>  git init
 * Revisar cambios realizados --------------------------------------------------------------------->>>>>  git status
 * Agregar cambios todos los cambios -------------------------------------------------------------->>>>>  git add .
-* Forzar a subir todos los cambios ------------------->>>>>  git add --all
+* Forzar a subir todos los cambios -------------------------------->>>>>  git add --all
 * Confirmar cambios ---------------------------------->>>>>  git commit -m "Aqui va el mensaje del cambio" 
 
 ======================================================== GIT REMOTO ===========================================================
