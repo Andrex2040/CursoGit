@@ -31,3 +31,12 @@
 * mezclar mi rama actual con la master del repositorio remoto---->>>>> git merge origin/master		
 * si el comando amnterior retorna error (fatal: refusing to merge unrelated histories) ------>>>> git merge origin/master --allow-unrelated-histories	
 
+================================================================== CLONAR REPOSITORIOS =======================================================================
+
+* Para conar un repositorio ---------------------------------------------------------------------->>>>>  git clone https://github.com/Andrex2040/CursoGit.git
+git pull origin  master 								--> Me trae cambios del repositorio remoto de la rama master de una manera mas sencilla
+git push origin master 									--> Envio cambios al repositorio remoto en la rama master
+git push origin master --tags							--> Enviar los tags locales al remoto (origin) en la rama master
+git push origin desarrollo								--> Envio una rama diferente al remoto
+
+
